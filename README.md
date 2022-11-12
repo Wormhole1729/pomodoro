@@ -1,2 +1,2 @@
 # pomodoro
-pomodoro timer
+pomodoro timer with a task list
