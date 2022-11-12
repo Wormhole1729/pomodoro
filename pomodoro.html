@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POMODORO TIMER</title>
+    <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+<div class="timer">
+    <h1>Pomodoro Timer</h1>
+
+    <div id="container">
+        <p id="work" style="display:inline;" class="label">Work:</p><p id="break" style="display:inline;" class="label">Break:</p><br>
+        <!--Work timer-->
+        <div class="workTimer">
+        <p id="min" style="display:inline;">25</p><p class="semicolon" id="c1" style="display:inline;">:</p><p id="sec" style="display:inline;">00</p>
+       
+        <!--Break timer-->
+       
+        <p id="bmin" style="display:inline;">5</p><p class="semicolon" id="c2" style="display:inline;">:</p><p id="bsec" style="display:inline;">00</p>
+        </div>
+
+    </div>
+
+    <div class="wrapper1">
+    <button id="start" class="btn">Start</button>
+    <button id="done1" class="btn">Done</button>
+    <button id="reset" class="btn">Reset</button>
+
+    </div>
+</div>
+
+    <!--task manager-->
+    <div class="wrapper"> 
+        <div class="border">
+          <h1>TASKS:<h1>
+          <input type="text" id="text" placeholder="Left to do..">
+          <button id="add">➕ </button>
+          <button id="removeAll">Remove all</button>
+          <ol id="list"></ol>
+       </div>
+     </div>
+    <script src="main.js"></script>
+
+
+    
+        
+    
+</body>
+</html>

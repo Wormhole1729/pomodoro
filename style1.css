@@ -1,0 +1,188 @@
+?/* html page*/
+html{
+    height:1000px;
+}
+
+/*timer container*/
+.timer{
+   
+    background-color: rgb(244, 92, 92);
+    padding-bottom: 35px;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+.timer h1 {
+    color: whitesmoke;
+    font-family: 'Times New Roman';
+    font-weight:lighter;
+    text-align: center;
+    font-size: 35px;
+   
+} 
+
+
+
+.wrapper h1{
+    color:black;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: normal;
+} 
+
+
+p{  
+    
+    color:white;
+    font-family:'Times Roman';
+    text-align: center;
+    font-weight: lighter;
+    width:500 ;
+}
+
+/*placing the timer elements*/
+#work {
+    font-size: 25px;
+    position:relative;
+    left:590px;
+}
+
+#break {
+    font-size: 25px;
+    position:relative;
+    left:827px;
+}
+
+#min{
+    font-size:50px;
+    position:relative;
+    left:560px; 
+}
+
+#sec{
+    font-size:50px;
+    position:relative;
+    left:562px;
+}
+
+#c1{
+    font-size:50px;
+    position:relative;
+    left:561px; 
+}
+#bmin{
+    font-size:50px;
+    position:relative;
+    left:760px; 
+}
+
+#bsec{
+    font-size:50px;
+    position:relative;
+    left:762px; 
+}
+
+#c2{
+    font-size:50px;
+    position:relative;
+    left:761px; 
+
+}
+
+
+/*placing the buttons*/
+#start{
+    position:relative;
+    left:565px;  
+    width:100px;
+
+}
+
+#done1{
+    position:relative;
+    left:616px; 
+    width:100px;
+
+}
+
+#reset{
+    position:relative;
+    left:667px;
+    width:100px;  
+
+}
+
+
+.wrapper1 button{
+    align-items: center;
+    border-color:white;
+    background-color: rgb(244,92,92);
+    font-family:'Times New Roman';
+    text-align: center;
+    font-size: 20px;
+    color:white;
+    border-radius: 2px 2px 2px 2px;
+    
+}
+
+input {
+    
+    padding: 10px;
+    color: black;
+    border: 1px solid #484646;
+    border-radius: 2px 2px 2px 2px;
+  }
+
+
+button#add {
+    font-size: 15px;
+    height:33px;
+    font-weight: 100px;
+    color:black;
+    width:34px;
+  }
+  
+
+  
+button#removeAll {
+    width: 120px;
+    height:33px;
+    font-size: 15px;
+    font-weight: 100px;
+    color: grey;
+  }
+  
+    
+  
+button.removeMe {
+    padding: 5px;
+    font-size: 13px;
+    margin-left: 10px;
+    font-weight: 700;
+  }
+
+.wrapper .button{
+    position:relative;
+    left:600px;
+  }
+
+ul#list {
+    margin: 0;
+    align-self: right; 
+    padding-top: 20px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 25px;
+    font-weight: normal;
+    
+  }
+  
+li {
+    list-style: none;
+    font-size: 20px;
+    padding:5px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: left;
+  }
